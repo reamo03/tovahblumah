@@ -1,0 +1,49 @@
+* {margin: 0; padding: 0;  box-sizing: border-box;}
+body {font-family: 'Poppins', sans-serif; background-color: #fff;
+color: #333; line-height: 1.6;}
+.site-header {background-color: #fde6e6;padding: 10px; display: flex; justify-content: space-between; align-items: center;}
+.logo {font-size: 3rem; font-weight: bold; color: black; font-family:'Times New Roman', Times, serif;}
+
+/*Navbar container*/
+.navbar {background-color: #333; padding: 15px; text-align: end;}
+/*Navigation links (normal)*/
+.nav-link {color: white; text-decoration: none; margin: 0 15px; font-size: 18px; font-family: Arial, Helvetica, sans-serif;}
+/*Shop Now button style*/
+.nav-btn {text-decoration: none; color:white; background-color: #f78ca2; padding: 10px 20px; border-radius: 5px; font-weight: bold}
+/*Optional: Hover effect*/
+.nav-btn .nav-link:hover{text-decoration: underline;}
+.hero {background-image:url('JMCP4329.JPG'); background-size: cover; background-position: center;background-repeat:no-repeat text-align: center; height: 70vh; display:flex; padding: 130px 110px, }
+
+.categories {display: flex; justify-content: center; gap: 20px; padding: 40px 20px;}
+.category-box {background-color: #ffe5ec; padding: 30px; text-align: center; border-radius: 10px; font-weight: bold; min-width: 170px; min-height: 90px;}
+
+.products {display: flex; justify-content: center; gap: 10px; padding: 0px; flex-wrap: wrap;}
+.product-card {text-align: center; padding: 0; font-size: 20px;}
+.product-card img {width: 250px; height: 250px; object-fit: cover;}
+
+/*Auth Section*/
+.auth-section  {background-color: #444; text-align: center; padding: 40px 20px; color:white;}
+.auth-section h2 {font-size: 2rem; margin-bottom: 5px;}
+.auth-section p {margin-bottom: 10px; font-size: 1rem;}
+
+/*Container for buttons*/
+.auth-buttons {display: flex; flex-direction: column; gap: 15px; justify-content: center;}
+
+/*Base button style*/
+.btn {padding: 5px 10px; border: none; border-radius: 6px; font-size: 1rem; font-weight: 600; text-decoration: none; text-align: center; cursor: pointer; transition: background-color 0.3s ease, transform 0.2s ease;}
+
+/*Sign Up Button (Primary) */
+.signup-btn {background-color: #e76c88; color: white;}
+.signup-btn:hover {text-decoration: underline; transform: scale(1.05);}
+
+/*Login Button (Secondary)*/
+.login-btn {background-color: #ffe5ec; color: #f78ca2; border: 2px; transform: scale(1.05); padding: 0;}
+.login-btn:hover {background-color: #fcd4dd;transform: scale(1.05); text-decoration-line: underline;}
+
+/* About & Contact Section*/
+.about-contact {display: flex; justify-content:space-between; padding: 20px 5px; background-color: #fff0f5; gap: 20px; flex-wrap: wrap;}
+.about-box, .contact-box {flex: 1.4; min-width: 230px;}
+.about-box h2, .contact-box h2 {font-size: 1rem; margin-bottom: 10px; color: #f78ca2}
+.about-box p, .contact-box p {font-size: 0.8rem; line-height: 1.2; color: #444}
+
+.footer {background-color: #a333; color: white; text-align: center; padding: 10px; font-size: 1rem;}
